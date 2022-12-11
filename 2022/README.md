@@ -1,13 +1,22 @@
-<!-- markdownlint-disable MD033 MD013 -->
-<h1 align="center">
-    <br>
-        Advent of Code
-    <br>
-</h1>
+```
+  .      *    *           *.       *    .                      *     .  .  .
+ *               .   .                    __   *    .     * .     *       .
+      *       *         *   .     .     _|__|_         *    __   .      *
+    .  *  /\       /\          *         ('')    *        _|__|_     .    .
+  *      /  \   * /  \  *          .   <( . )> *  .        ('')   * *   *
+    *    /  \     /  \   .   *        _(__.__)_   _   ,--<(  . )>  .   .   *
+ .      /    \   /    \          *    |       |   )), `  (   .  )     .  *
+     *   `||` ..  `||`   . *.   ...  ============'`  .... '--`-` ... *  .  *
 
-<h4 align="center">
-    My solutions to each days problem
-</h4>
+             _                 _       ____   __     _____          _
+    /\      | |               | |     / __ \ / _|   / ____|        | |
+   /  \   __| |_   _____ _ __ | |_   | |  | | |_   | |     ___   __| | ___
+  / /\ \ / _` \ \ / / _ \ '_ \| __|  | |  | |  _|  | |    / _ \ / _` |/ _ \
+ / ____ \ (_| |\ V /  __/ | | | |_   | |__| | |    | |___| (_) | (_| |  __/
+/_/    \_\__,_| \_/ \___|_| |_|\__|   \____/|_|     \_____\___/ \__,_|\___|
+```
+
+# Advent of Code 2022 Results
 
 <p align="center">
     <a href="https://github.com/MNThomson/AdventOfCode/commits">
@@ -17,13 +26,6 @@
         >
     </a>
 </p>
-<!-- markdownlint-enable -->
-
----
-
-<!-- markdownlint-disable-next-line MD002 -->
-
-## Advent of Code 2022 Results
 
 This is my global ranking for each problem (lower is better). Any time > 3hrs means I attempted it the next morning (thus the worse ranking because of the 12+ hr headstart other competitors have).
 
