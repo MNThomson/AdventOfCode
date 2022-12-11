@@ -6,6 +6,7 @@ if [ "$#" -eq 0 ]; then
   python3.11 1.py <../input.txt
 fi
 
+# Iterate through args
 while [[ $# -gt 0 ]] && [[ "$1" == "-"* ]]; do
   opt="$1"
   shift #expose next argument
@@ -13,6 +14,11 @@ while [[ $# -gt 0 ]] && [[ "$1" == "-"* ]]; do
   case "$opt" in
   "-t") # run test input
     python3.11 1.py <../test.txt
+    shift
+    ;;
+  "-l") # lint files
+    black .
+    isort .
     shift
     ;;
   *)
