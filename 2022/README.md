@@ -7,7 +7,6 @@
     *    /  \     /  \   .   *        _(__.__)_   _   ,--<(  . )>  .   .   *
  .      /    \   /    \          *    |       |   )), `  (   .  )     .  *
      *   `||` ..  `||`   . *.   ...  ============'`  .... '--`-` ... *  .  *
-
              _                 _       ____   __     _____          _
     /\      | |               | |     / __ \ / _|   / ____|        | |
    /  \   __| |_   _____ _ __ | |_   | |  | | |_   | |     ___   __| | ___
@@ -18,14 +17,14 @@
 
 # Advent of Code 2022 Results
 
-<p align="center">
+<!-- <p align="center">
     <a href="https://github.com/MNThomson/AdventOfCode/commits">
         <img
             src="https://img.shields.io/github/last-commit/MNThomson/AdventOfCode?style=for-the-badge"
             alt="Last GitHub Commit"
         >
     </a>
-</p>
+</p> -->
 
 This is my global ranking for each problem (lower is better). Any time > 3hrs means I attempted it the next morning (thus the worse ranking because of the 12+ hr headstart other competitors have).
 
@@ -44,5 +43,7 @@ This is my global ranking for each problem (lower is better). Any time > 3hrs me
 | **9**  |     | _01:46:29_   |  `12,156` |     | _01:56:03_   |   `8,191` |
 | **10** |     | _17:27:07_   |  `48,589` |     | _17:36:40_   |  `44,268` |
 | **11** |     | _00:48:03_   |   `4,391` |     | _01:07:03_   |   `3,085` |
+| **12** |     | _>24h_       |  `35,587` |     | _>24h_       |  `34,638` |
+| **13** |     | _01:12:00_   |   `4,891` |     | _01:29:09_   |   `4,844` |
 
 <!--MARKER:END:SCOREBOARD-->
