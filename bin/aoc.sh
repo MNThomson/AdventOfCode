@@ -1,6 +1,6 @@
 #!/bin/bash
 # aoc:   quickly run AdventOfCode problems
-# setup: ln -s `pwd`/bin/aoc /usr/local/bin/aoc
+# setup: ln -s `pwd`/bin/aoc.sh /usr/local/bin/aoc
 
 if [ "$#" -eq 0 ]; then
   python3.11 1.py <../input.txt
