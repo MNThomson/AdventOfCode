@@ -1,0 +1,4 @@
+[alias]
+r = "run -q --release --bin"
+t = "nextest run --release --cargo-quiet --no-fail-fast --failure-output final --bin"
+c = "clippy -q --release --bin"
