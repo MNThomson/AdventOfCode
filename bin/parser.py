@@ -2,8 +2,8 @@
 
 import re
 
-scoreboard_str =  "| Day |   | Part 1: Time | Rank | Percentile |   | Part 2: Time | Rank | Percentile |\n"
-scoreboard_str += "| --- | - | ------------ | ---: | :--------: | - | ------------ | ---: | :--------: |\n"
+scoreboard_str =  "| Day |   | Part 1: Time | Rank (Percentile) |   | Part 2: Time | Rank (Percentile) |\n"
+scoreboard_str += "| --- | - | ------------ | ----------------: | - | ------------ | ----------------: |\n"
 
 with open("scoreboard.txt") as file:
     scoreboard = file.read().splitlines()[2::][::-1]
@@ -26,6 +26,6 @@ for score_line, stats_line in zip(scoreboard, stats):
     percentile1 = (total_attempted - int(rank1)) * 100 // total_attempted
     percentile2 = (int(gold_num) - int(rank2)) * 100 // int(gold_num)
 
-    scoreboard_str += f"| **{day}** | | _{time1}_ | `{rank1_fmt}` | {percentile1}% | | _{time2}_ | `{rank2_fmt}` | {percentile2}% |\n"
+    scoreboard_str += f"| **{day}** | | _{time1}_ | `{rank1_fmt}` ({percentile1}%) |  | _{time2}_ | `{rank2_fmt}` ({percentile2}%) |\n"
 
 print(scoreboard_str)
