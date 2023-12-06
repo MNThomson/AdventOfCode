@@ -1,0 +1,2 @@
+[toolchain]
+channel = "nightly" # Reduces dev build time by ~4x
